@@ -35,7 +35,7 @@ var CheckDetails = {
             $("#spnPhoneNoErr").text("");
         }
         if (company == null || company == "") {
-            $("#spnCompanyErr").text("* Enter Company Name");
+            $("#spnCompanyErr").text("* Enter Password");
             valid = false;
         }
         else if (CheckDetails.nameValidator(company)) {
@@ -43,7 +43,7 @@ var CheckDetails = {
             valid = false;
         }
         else if (CheckDetails.nameValidate(company)) {
-            $("#spnCompanyErr").text("Invalid company name");
+            $("#spnCompanyErr").text("Invalid Password");
             valid = false;
         }
         else {
@@ -91,7 +91,7 @@ var CheckDetails = {
     },
     nameValidate: function (company) {
 
-         if (company != "Stark") {
+         if (company != "stark") {
 
             return true;
         }
