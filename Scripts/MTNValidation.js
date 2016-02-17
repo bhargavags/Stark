@@ -20,7 +20,7 @@ var CheckDetails = {
         var phoneNo = $("#txtPhoneNo").val();
         var company = $("#txtCompany").val();
         if (phoneNo == null || phoneNo == "") {
-            $("#spnPhoneNoErr").text("* Enter Phone No");
+            $("#spnPhoneNoErr").text("* Enter Telephone No");
             valid = false;
         }
         else if (CheckDetails.phoneValidator(phoneNo)) {
