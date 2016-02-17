@@ -5,10 +5,10 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-  <name>MTNPOCSFA</name>
+  <name>Stark</name>
 
   <description>
-    MTNPOC iPhone and iPad Application
+    Stark iPhone and iPad Application
   </description>
 
   <author href="http://phonegap.com" email="support@phonegap.com">
@@ -23,7 +23,7 @@
   <feature name="Camera">
     <param name="ios-package" value="CDVCamera" />
 </feature>
-<plugin name="Geolocation" value="CDVLocation" />
+ <!-- <plugin name="Geolocation" value="CDVLocation" /> -->
 
   <!--
         If you do not want any permissions to be added to your app, add the
