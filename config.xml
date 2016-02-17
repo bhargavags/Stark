@@ -23,7 +23,7 @@
   <feature name="Camera">
     <param name="ios-package" value="CDVCamera" />
 </feature>
-//<plugin name="Geolocation" value="CDVLocation" />
+ <!-- <plugin name="Geolocation" value="CDVLocation" /> -->
 
   <!--
         If you do not want any permissions to be added to your app, add the
