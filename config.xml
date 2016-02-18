@@ -22,8 +22,9 @@
   <feature name="http://api.phonegap.com/1.0/device" />
   <feature name="Camera">
     <param name="ios-package" value="CDVCamera" />
+	
 </feature>
-  <plugin name="Geolocation" value="CDVLocation" /> 
+  <feature name="http://api.phonegap.com/1.0/geolocation" />
 
   <!--
         If you do not want any permissions to be added to your app, add the
