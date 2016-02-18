@@ -20,14 +20,14 @@
 
     <script type="text/javascript">
         function getGPSIncidentLocation() {
-            //alert("aa" + navigator.geolocation);
+            alert("aa" + navigator.geolocation);
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPositionLatLng);
             }
             else { x.innerHTML = "Geolocation is not supported by this browser."; }
         }
         function showPositionLatLng(position) {
-            //alert(position.coords.latitude);
+            alert("Latitude  "+position.coords.latitude);
             document.getElementById("divlat").innerHTML = 'Latitude : '+position.coords.latitude;
             document.getElementById("divlong").innerHTML = 'Longitude : ' + position.coords.longitude;
         }
