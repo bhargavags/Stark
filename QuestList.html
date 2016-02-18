@@ -20,14 +20,14 @@
 
     <script type="text/javascript">
         function getGPSIncidentLocation() {
-            alert("aa" + navigator.geolocation);
+           // alert("aa" + navigator.geolocation);
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPositionLatLng);
             }
             else { x.innerHTML = "Geolocation is not supported by this browser."; }
         }
         function showPositionLatLng(position) {
-            alert("Latitude  "+position.coords.latitude);
+          //  alert("Latitude  "+position.coords.latitude);
             document.getElementById("divlat").innerHTML = 'Latitude : '+position.coords.latitude;
             document.getElementById("divlong").innerHTML = 'Longitude : ' + position.coords.longitude;
         }
@@ -846,11 +846,11 @@
                 Current Location</div>
             <div class="MTNQuestContent">
                 <div class="MTNInnerContent" id="divlat">
-                    Latitude : 	12.2958</div>
+                    Latitude : </div>
                 <br />
                 <br />
                 <div class="MTNInnerContent" id="divlong">
-                    Longitude :  76.6394</div>
+                    Longitude : </div>
                 <br />
                 <br />
                 <div class="MNSQuestImgDiv">
